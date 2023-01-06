@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.body{
+    background-color: #FFFFFF;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.div-botoes{
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+}
+
+.botao-menu{
+    border-radius: 10px;
+    color: rgba(10, 153, 254, 0.90);
+    border-style: none;
+    height: 40px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.botao-menu:hover{
+    background-color: #0A99FE;
+    color: #FFFFFF;
+}
+
+h3{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #1B1B1B;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    display: flex; 
+    width: 100%;
+    /* max-width: 1200px; */
+    gap: 20px;
+    justify-content: center;
+}
+
+
+li{
+    min-width: 207px;
+    width: 207px;
+    height: 275px;
+    background-color: rgba(211, 211, 211, 0.678);
+    justify-content: center;
+}
+
+li:hover{
+    transition: 1.5;
+    scale: 1.1;
+    border: #1B1B1B 1px solid;
+    cursor: pointer;
+}
+
+.img-card{
+    height: 40%;
+    max-height: 120px;
+    margin: 0 auto;
+    border-radius: 5px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-card img{
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+
+.titulo-card{
+    color: #1B1B1B;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.valor-card{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #868383;
+}
